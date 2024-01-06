@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color:green;
+    font-family: "poppins",sans-serif;
+    color: white;
+  }
+  
+  .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10%;
+  }
+
+.logo{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 27px;
+    cursor: defaults;
+}
+  
+  
+
+
+
+  nav {
+    background-color: #333;
+    color: white; /* Change the text color to white */
+    text-align: left;
+    padding: 0.5em 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+a:hover {
+    color: blue
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(0, 98, 254, 0.991); 
+    padding: 0px 16px;
+    margin: 0 15px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Add this rule to change the text color of links inside the nav element */
+nav a {
+    color:white;
+}
+
+
+section {
+    padding: 20px;
+}
+
+.circular-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    object-fit: cover;
+}
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #f9f9f9; 
+    padding: 8px;
+    text-align: left;
+}
+
+.table1 {
+    color: #3498db;
+    text-align: center;
+    background-color: #2c3e50; 
+}
+h1 {
+    color:#0f78e1; 
+    text-align: left;
+}
+h2, h3{
+    color:#3498db; 
+    text-align: left;
+}
+
+hr {
+    border: 1px solid #bdc3c7; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+footer {
+            clear: both;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 0px;
+            bottom: 0;
+            width: 100%;
+        }
